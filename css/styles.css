@@ -1,16 +1,12 @@
-.contenedorImg{
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 100px;
+}
+.contenedorImg {
     position: relative;
     display: inline-block;
-}
-.contenedorImg,p{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-    padding: 5px;
-}
-img{
-    width: 100px;
-    height: auto;
+    background-color: aqua;
 }
